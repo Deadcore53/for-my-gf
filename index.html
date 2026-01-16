@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" onclick="nextStep()">
+  <img src="594970581_862873626288268_3842129286992380414_n.jpg" alt="Her Photo" class="photo">
+  <h1 id="text">Hi, my love 💕</h1>
+  <p id="sub">Tap anywhere</p>
+
+  <div id="buttons" class="buttons hidden">
+    <button class="yes" onclick="yesClicked(event)">YES 💖</button>
+    <button class="no" id="noBtn" onclick="moveNo(event)">NO 😭</button>
+  </div>
+</div>
+
+<audio id="bgMusic" src="music.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
